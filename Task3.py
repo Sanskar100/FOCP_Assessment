@@ -30,7 +30,7 @@ def setup():
         print("Welcome to pop chat\n""One of our operators will be pleased to help you today.")
         ls_operator=["James","Nike","Harry","Josh"] # random names of the operators
         ls_reply=["Hmmm","Oh, yes,I see","Tell me more","Please say once again"] # random reply from the operators
-        ls_exit=["Bye","exit","Have a great day"] 
+        ls_exit=["Bye","exit","help","Have a great day"] 
         email=input("Please enter your Poppleton email address: ") # asking the user to input their University email address
         if email_valadiation(email,"@pop.ac.uk"): # checking if the email in valid or not
             print("Hi,{}!Thank you, and Welcome to PopChat!\n""My name is {},and it will be my pleasure to help you.".format(get_names(email),random_string(ls_operator)))
